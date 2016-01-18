@@ -5,17 +5,24 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-   font-family: 'RODEO95_';
+   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-   src: url('../../../assets/RODEO95_.TTF') format('truetype');
+   
 }
-palabi {
+rodeo{
+    font-family: 'RODEO95_';
+    src: url('../../../assets/RODEO95_.TTF') format('truetype');
+}
+paladi {
     font-family: 'palabi_0';
     src: url('../../../assets/palabi_0.ttf') format('truetype');
 }
 body {
   margin: 0;
+  
+    font-family: 'RODEO95_';
+    src: url('../../../assets/RODEO95_.TTF') format('truetype');
 }
 article,
 aside,
@@ -31,6 +38,9 @@ nav,
 section,
 summary {
   display: block;
+  
+    font-family: 'RODEO95_';
+    src: url('../../../assets/RODEO95_.TTF') format('truetype');
 }
 audio,
 canvas,
@@ -5924,6 +5934,7 @@ button.close {
   overflow: hidden;
 }
 .modal {
+    text-align: center;
   position: fixed;
   top: 0;
   right: 0;
@@ -5956,10 +5967,12 @@ button.close {
 }
 .modal-dialog {
   position: relative;
-  width: auto;
-  margin: 10px;
+  width: auto;  
+  vertical-align: middle;
 }
 .modal-content {
+    
+  vertical-align: middle;
   position: relative;
   background-color: #fff;
   -webkit-background-clip: padding-box;
@@ -6028,8 +6041,9 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
-    margin: 30px auto;
+    width: auto;
+    margin: 30px auto;    
+  vertical-align: middle;
   }
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);

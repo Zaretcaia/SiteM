@@ -5,10 +5,6 @@
             function($urlRouterProvider, $stateProvider) {
                 $urlRouterProvider.otherwise('/');
                 $stateProvider
-                    .state('login', {
-                        url: '/login',
-                        templateUrl: 'app/components/LP/login.html'
-                    })
                     .state('help', {
                         url: '/help',
                         templateUrl: 'app/components/LP/help.html'
