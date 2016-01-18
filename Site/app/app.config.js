@@ -7,15 +7,15 @@
                 $stateProvider
                     .state('login', {
                         url: '/login',
-                        templateUrl: 'app/components/Login/login.html'
+                        templateUrl: 'app/components/LP/login.html'
                     })
                     .state('help', {
                         url: '/help',
-                        templateUrl: 'app/components/Help/help.html'
+                        templateUrl: 'app/components/LP/help.html'
                     })
                     .state('home', {
                         url: '/',
-                        templateUrl: 'app/components/Home/home.html'
+                        templateUrl: 'app/components/LP/home.html'
                     });
             }]);
 })();
