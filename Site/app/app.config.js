@@ -5,13 +5,18 @@
             function($urlRouterProvider, $stateProvider) {
                 $urlRouterProvider.otherwise('/');
                 $stateProvider
-                    .state('help', {
-                        url: '/help',
+                    .state('faq', {
+                        url: '/faq',
                         templateUrl: 'app/components/LP/help.html'
                     })
-                    .state('home', {
+                    .state('homeLP', {
                         url: '/',
                         templateUrl: 'app/components/LP/home.html'
+                    })
+                    .state('mainLK', {
+                        url: '/lk/main',
+                        templateUrl: 'app/components/LK/main.html',
+                        controller: 'LKCtrl'
                     });
             }]);
 })();
