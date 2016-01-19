@@ -10,10 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
    
 }
-.footerbackground {
-    background-color: #462a72;
-}
-
 rodeo{
     font-family: 'RODEO95_';
     src: url('../../../assets/RODEO95_.TTF') format('truetype');
@@ -3146,8 +3142,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
-  background-color: #955df2;
-  border-color: #955df2;
+  background-color: #337ab7;
+  border-color: #2e6da4;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -4237,7 +4233,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
