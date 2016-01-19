@@ -5772,8 +5772,8 @@ button.list-group-item-danger.active:focus {
 }
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #337ab7;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #337ab7;
@@ -6002,6 +6002,7 @@ button.close {
   opacity: .5;
 }
 .modal-header {
+  background-color: #A2E55A;
   min-height: 16.42857143px;
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
