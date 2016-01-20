@@ -13,11 +13,11 @@ html {
 .footerbackground {
     background-color: #462a72;
 }
-rodeo{
+.rodeo{
     font-family: 'RODEO95_';
     src: url('../../../assets/RODEO95_.TTF') format('truetype');
 }
-paladi {
+.palabi {
     font-family: 'palabi_0';
     src: url('../../../assets/palabi_0.ttf') format('truetype');
 }
