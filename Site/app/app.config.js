@@ -17,6 +17,10 @@
                         url: '/lk/main',
                         templateUrl: 'app/components/LK/main.html',
                         controller: 'LKCtrl'
+                    })
+                    .state('operationsLK', {
+                        url: '/lk/operations',
+                        templateUrl: 'app/components/LK/operations.html'
                     });
             }]);
 })();

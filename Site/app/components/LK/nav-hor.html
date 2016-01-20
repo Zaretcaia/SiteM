@@ -1,13 +1,11 @@
-﻿<div class="container ">
-    <nav class="navbar nav-justified ">
-            <ul class="nav navbar-nav text-uppercase">
-                <li role="presentation" class="col-md-9 text-left" ui-sref-active="active">
-                    <span> {{$parent.currentDate | date:'HH:mm:ss'}}</span>
-                </li>
-                <li role="presentation" class="col-md-1 text-right" ui-sref-active="active">
-                    <a> Q</a>
-                </li>
-            </ul>
-    </nav>
-</div>
+﻿<nav class="navbar nav-justified " ng-init="$parent.ssrc='../../../assets/img/Выход (неактив).png'" style="background-color: #4e547a; border-radius: 0 ">
+        <ul class="nav navbar-nav text-uppercase">
+            <li role="presentation" class="pull-left">
+                <a style="font-size: 150%;color: white"> {{$parent.clock | date:'HH:mm:ss'}}</a>
+            </li>
+            <li role="presentation" class="pull-right" ui-sref-active="active">
+                <a><img ng-mouseenter="$parent.ssrc='../../../assets/img/Выход (актив).png'" ng-mouseleave="$parent.ssrc='../../../assets/img/Выход (неактив).png'" ng-src="{{$parent.ssrc}}" /> </a>
+            </li>
+        </ul>
+</nav>
 
