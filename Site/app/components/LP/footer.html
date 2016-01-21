@@ -1,7 +1,7 @@
 <div id="footer" class="row" style="background-color: #462a72 ">
     <div class="col-md-4 col-md-offset-4">
         <div class="form-group">
-            <div class="container-fluid">
+            <div>
                 <div class="col-md-3">
                     <br/>
                     <img src="../../../assets/img/Qiwi.png"/>
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="form-group">
-            <div class="col-sm-12 text-center">
+            <div class="col-md-12 text-center">
                 <p><font color="white">ИНВЕСТИРУЙ В НАСТОЯЩЕЕ - СОЗДАВАЙ БУДУЩЕЕ</font></p>
             </div>
         </div>
@@ -31,11 +31,12 @@
             </div>
         </div>
         <div class="form-group">
-            <div class="col-sm-12 text-center">
+            <div ng-init="$parent.ssrc='../../../assets/img/Кнопка VK (неактив).png'" class="col-md-12 text-center">
 
-                <p>
-                    <img src="../../../assets/img/Кнопка VK (неактив).png" />
-                    <font color="#965df2">THE IMMOVABLES AND PROSPERITY ALL RIGHTS RESERVED 2016</font>
+                <p style="color:#965df2 ">
+                    <a><img ng-mouseenter="$parent.ssrc='../../../assets/img/Кнопка VK (наведение).png'" ng-mouseleave="$parent.ssrc='../../../assets/img/Кнопка VK (неактив).png'" ng-src="{{$parent.ssrc}}" /> </a>
+                    
+                    THE IMMOVABLES AND PROSPERITY ALL RIGHTS RESERVED 2016
                 </p>
             </div>
         </div>

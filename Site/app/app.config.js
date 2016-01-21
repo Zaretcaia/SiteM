@@ -1,30 +1,32 @@
 ﻿(function() {
-    'use strict';
-    angular.module('app')
-        .config(['$urlRouterProvider', '$stateProvider',
+    "use strict";
+    angular.module("app")
+        .config([
+            "$urlRouterProvider", "$stateProvider",
             function($urlRouterProvider, $stateProvider) {
-                $urlRouterProvider.otherwise('/');
+                $urlRouterProvider.otherwise("/");
                 $stateProvider
-                    .state('faq', {
-                        url: '/faq',
-                        templateUrl: 'app/components/LP/help.html'
+                    .state("faq", {
+                        url: "/faq",
+                        templateUrl: "app/components/LP/help.html"
                     })
-                    .state('homeLP', {
-                        url: '/',
-                        templateUrl: 'app/components/LP/home.html'
+                    .state("homeLP", {
+                        url: "/",
+                        templateUrl: "app/components/LP/home.html"
                     })
-                    .state('mainLK', {
-                        url: '/lk/main',
-                        templateUrl: 'app/components/LK/main.html',
-                        controller: 'LKCtrl'
+                    .state("mainLK", {
+                        url: "/lk/main",
+                        templateUrl: "app/components/LK/main.html",
+                        controller: "LKCtrl"
                     })
-                    .state('operationsLK', {
-                        url: '/lk/operations',
-                        templateUrl: 'app/components/LK/operations.html'
+                    .state("operationsLK", {
+                        url: "/lk/operations",
+                        templateUrl: "app/components/LK/operations.html"
                     })
-                    .state('partnersLK', {
-                        url: '/lk/partners',
-                        templateUrl: 'app/components/LK/partners.html'
+                    .state("contactsLP", {
+                        url: "/contacts",
+                        templateUrl: "app/components/LP/contacts.html"
                     });
-            }]);
+            }
+        ]);
 })();
