@@ -26,6 +26,10 @@
                     .state("contactsLP", {
                         url: "/contacts",
                         templateUrl: "app/components/LP/contacts.html"
+                    })
+                    .state("partnersLK", {
+                        url: "/lk/partners",
+                        templateUrl: "app/components/LK/partners.html"
                     });
             }
         ]);
