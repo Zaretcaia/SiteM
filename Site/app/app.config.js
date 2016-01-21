@@ -21,6 +21,10 @@
                     .state('operationsLK', {
                         url: '/lk/operations',
                         templateUrl: 'app/components/LK/operations.html'
+                    })
+                    .state('partnersLK', {
+                        url: '/lk/partners',
+                        templateUrl: 'app/components/LK/partners.html'
                     });
             }]);
 })();
