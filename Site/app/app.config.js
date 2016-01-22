@@ -30,6 +30,10 @@
                     .state("partnersLK", {
                         url: "/lk/partners",
                         templateUrl: "app/components/LK/partners.html"
+                    })
+                    .state("tiketiLK", {
+                        url: "/lk/tiketi",
+                        templateUrl: "app/components/LK/tiketi.html"
                     });
             }
         ]);
