@@ -34,6 +34,14 @@
                     .state("tiketiLK", {
                         url: "/lk/tiketi",
                         templateUrl: "app/components/LK/tiketi.html"
+                    })
+                    .state("reviewsLP", {
+                        url: "/reviews",
+                        templateUrl: "app/components/LP/reviews.html"
+                    })
+                    .state("newsLP", {
+                        url: "/news",
+                        templateUrl: "app/components/LP/news.html"
                     });
             }
         ]);
