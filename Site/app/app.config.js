@@ -16,8 +16,7 @@
                     })
                     .state("mainLK", {
                         url: "/lk/main",
-                        templateUrl: "app/components/LK/main.html",
-                        controller: "LKCtrl"
+                        templateUrl: "app/components/LK/main.html"
                     })
                     .state("operationsLK", {
                         url: "/lk/operations",
@@ -42,6 +41,10 @@
                     .state("newsLP", {
                         url: "/news",
                         templateUrl: "app/components/LP/news.html"
+                    })
+                    .state("optionsLK", {
+                        url: "/lk/options",
+                        templateUrl: "app/components/LK/options.html"
                     });
             }
         ]);
