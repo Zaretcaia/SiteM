@@ -6,9 +6,13 @@
             function($urlRouterProvider, $stateProvider) {
                 $urlRouterProvider.otherwise("/");
                 $stateProvider
-                    .state("faq", {
+                    .state("faqLP", {
                         url: "/faq",
                         templateUrl: "app/components/LP/help.html"
+                    })
+                    .state("agreementLP", {
+                        url: "/agreement",
+                        templateUrl: "app/components/LP/agreement.html"
                     })
                     .state("homeLP", {
                         url: "/",
