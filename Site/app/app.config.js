@@ -14,6 +14,10 @@
                         url: "/agreement",
                         templateUrl: "app/components/LP/agreement.html"
                     })
+                    .state("marketingLP", {
+                        url: "/marketing",
+                        templateUrl: "app/components/LP/marketing.html"
+                    })
                     .state("homeLP", {
                         url: "/",
                         templateUrl: "app/components/LP/home.html"
