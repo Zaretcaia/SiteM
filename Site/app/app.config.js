@@ -49,6 +49,10 @@
                     .state("optionsLK", {
                         url: "/lk/options",
                         templateUrl: "app/components/LK/options.html"
+                    })
+                    .state("banersLK", {
+                        url: "/lk/baners",
+                        templateUrl: "app/components/LK/baners.html"
                     });
             }
         ]);

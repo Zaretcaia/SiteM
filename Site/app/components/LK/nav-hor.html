@@ -1,10 +1,10 @@
-﻿<nav class="navbar nav-justified " ng-controller="LKCtrl" ng-init="$parent.ssrc='../../../assets/img/Выход (неактив).png'" style="background-color: #4e547a; border-radius: 0 ">
+﻿<nav class="navbar nav-justified " ng-controller="LKCtrl" style="background-color: #4e547a; border-radius: 0 ">
         <ul class="nav navbar-nav text-uppercase">
             <li role="presentation" class="pull-left">
                 <a style="font-size: 150%;color: white"> {{clock | date:'HH:mm:ss'}}</a>
             </li>
             <li role="presentation" class="pull-right" ui-sref-active="active">
-                <a><img ng-mouseenter="$parent.ssrc='../../../assets/img/Выход (актив).png'" ng-mouseleave="$parent.ssrc='../../../assets/img/Выход (неактив).png'" ng-src="{{$parent.ssrc}}" /> </a>
+                <a ui-sref="homeLP"><img src="../../../assets/img/выходлк.png" /> </a>
             </li>
         </ul>
 </nav>
