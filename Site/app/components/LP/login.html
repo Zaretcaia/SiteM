@@ -1,38 +1,38 @@
 ﻿<div class="panel panel-primary" style="border-radius: 10px; margin-bottom: 0;">
-    <div class="panel-heading text-center" style="border-radius: 10px;">
+    <div class="panel-heading text-center" style="border-radius: 10px;  padding-bottom: 0">
         <span class="text-center" style="color: black; font-size: 3vh">Вход</span>
         <button type="button" class="close" ng-click="closeForm()" aria-label="Close">
             <span aria-hidden="true">&times;</span></button>
     </div>
     <div class="panel-body" style="font-size: 2vh">
         <form class="form-horizontal" role="form" ng-submit="login(credentials)" novalidate>
-            <div class="form-group">
+            <div class="form-group" style="margin: 0">
                 <div class="col-md-12">
-                    <input type="text" class="form-control" id="inputName"
+                    <input type="text" class="form-control" id="inputName" style="background-color: whitesmoke; font-size: 1.75vh "
                            placeholder="Логин...">
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin: 0">
                 <div class="col-md-12">
-                    <input type="password" class="form-control" id="inputPassword"
+                    <input type="password" class="form-control" id="inputPassword" style="background-color: whitesmoke; font-size: 1.75vh "
                            placeholder="Пароль...">
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin: 0">
                 <div class="col-md-12">
-                    <div class="checkbox">
-                        <label><input type="checkbox" value="">Запомнить на этом устройстве</label>
+                    <div class="checkbox text-left">
+                        <label><input type="checkbox" style="height: 3vh; width: 3vh;" value=""><span style="padding-left: 2.5vh">Запомнить на этом устройстве</span></label>
                     </div>
                 </div>
             </div>
-            <div class="form-group last">
+            <div class="form-group last" style="margin: 0">
                 <div  ui-sref-active="active">
-                    <button style="font-size: 2vh;width: 5vw" type="submit" ui-sref="mainLK" ng-click="closeForm()" class="btn btn-primary btn-block center-block">Войти</button>
+                    <button style="font-size: 2vh;width: 6vw" type="submit" ui-sref="mainLK" ng-click="closeForm()" class="btn btn-primary btn-block center-block">Войти</button>
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="margin: 0">
                 <div class="col-md-12 text-center">
-                    <a href="#">Забыли пароль?</a>
+                    <a href="#" style="color: black">Забыли пароль?</a>
                 </div>
             </div>
         </form>
