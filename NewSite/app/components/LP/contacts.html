@@ -1,0 +1,37 @@
+﻿<header ng-include="'app/components/LP/nav.html'"></header>
+<div ng-include="'app/components/LP/log.reg.html'"></div>
+<div class="col-md-12 text-center" style="background-color: white; font-weight: lighter; padding: 1% 40% 1% 40%;">
+    <p style="font-size: 200%;">
+        <u style="border-bottom: 1px solid orange; text-decoration: none;">КОНТАКТЫ</u>
+    </p>
+</div>
+
+<div class="col-md-12" style="height:80%;background-color: #f3effc;  margin: 0; padding: 0;margin-bottom:1%;padding-bottom:2%">
+    <div class="row">
+        <div class="center-block"  style="padding: 0; margin: 2% 30% 3% 30%; background-color: white;">
+            <div class="col-md-12" style="padding: 0; ">
+                <img style="height: 100%; width:100%" src="../../../assets/img/Shablon (Контакты).jpg"/>
+            </div>
+            <div class="col-md-12" style="border: 1px solid gray; background-color:whitesmoke">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 text-center" style="border-right: 1px solid gray;" ng-init="$parent.src1='../../../assets/img/Вк неактив.png'">
+                        <a>
+                            <img style="height:100%;width:20%" ng-mouseenter="$parent.src1='../../../assets/img/ВК. Активная (наведение).png'" ng-mouseleave="$parent.src1='../../../assets/img/Вк неактив.png'" ng-src="{{$parent.src1}}" />
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-6  text-center" ng-init="$parent.src2='../../../assets/img/Почта. Неактивная..png'">
+                        <a class="p">
+                            <img style="height:100%;width:20%" ng-mouseenter="$parent.src2='../../../assets/img/Почта. Активная..png'" ng-mouseleave="$parent.src2='../../../assets/img/Почта. Неактивная..png'" ng-src="{{$parent.src2}}" />
+                        </a>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row text-center"style="background-color: white">
+    <p style="font-size: 100%; padding: 2% 40% 1% 40%;">
+        Много много блабла бла
+    </p>
+</div>
+<div ng-include="'app/components/LP/footer.html'"></div>     

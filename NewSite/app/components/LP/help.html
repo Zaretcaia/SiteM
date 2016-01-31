@@ -1,0 +1,125 @@
+﻿<header ng-include="'app/components/LP/nav.html'"></header>
+<div ng-include="'app/components/LP/log.reg.html'" style="margin: 0; padding: 0;">
+</div>
+<div class="col-md-12 text-center" style="background-color: white; font-weight: lighter; padding: 2vh 30vw 5vh 30vw;">
+    <p style="font-size: 3vh;">
+        <u style="border-bottom: 1px solid orange; text-decoration: none;">F.A.Q</u>
+    </p>
+    <span class="text-center" style="color: gray; font-size: 2vh">
+        На начальном этапе «Часто задаваемые вопросы (FAQ)» являются отличным источником
+        изучений деятельности компании.Именно они помогут разобраться в нюансах работы
+        сервиса и ответят на большую часть возникающих вопросов.
+        <br/>
+    </span>
+</div>
+<div class="col-md-12 text-center" style="background-color: #8764bf ;height:20%; font-weight: lighter; padding: 0.5% 20% 1% 20%;">
+    <div class="row">
+        <div class="col-md-1" style="padding-top:4vh">
+            <img style="height: 5vh" src="../../../assets/img/lp.faq/Иконка Общедоступно.png" />
+        </div>
+        <div class="col-md-3">
+            <span class="text-center" style="color: white; font-size: 1.1em; margin-bottom:2vh">
+                Общедоступно <br>
+            </span>
+            <span class="text-center" style="color: white; font-size: 0.8em;margin:0;padding:0">
+                Является публичным материалом, представленным на изучение 24/7
+            </span>
+        </div>
+        <div class="col-md-1" style="padding-top:4vh">
+            <img style="height: 5vh" src="../../../assets/img/lp.faq/Иконка Краткосрочно.png" />
+        </div>
+        <div class="col-md-3">
+            <span class="text-center" style="color: white; font-size: 1.1em; margin-bottom:2vh">
+                Краткосрочно <br>
+            </span>
+            <span class="text-center" style="color: white; font-size: 0.8em;margin:0;padding:0">
+                Изучение ответов не потребует много времени
+            </span>
+        </div>
+        <div class="col-md-1" style="padding-top:4vh">
+            <img style="height: 5vh" src="../../../assets/img/lp.faq/Иконка Доходчиво.png" />
+        </div>
+        <div class="col-md-3">
+            <span class="text-center" style="color: white; font-size: 1.1em; margin-bottom:2vh">
+                Доходчиво <br>
+            </span>
+            <span class="text-center" style="color: white; font-size: 0.8em;margin:0;padding:0">
+                Каждый ответ носит внятный и вразумительный характер
+            </span>
+        </div>
+    </div>
+</div>
+<div class="col-md-12 text-center" style="height:60vh; font-weight: lighter; padding: 2vh 28vw 2vh 28vw;">
+    <div class="row">
+        <div class="col-md-7 text-left" style="margin-top:3vh" ng-init="$parent.pag=1">
+            <ul class="list-group" style="font-size: 2vh; border: none;color: black;">
+                <li ng-show="$parent.pag==1" class="list-group-item " ng-click="$parent.quest=1" style="padding-top: 2vh">
+                    <table>
+                        <tr>
+                            <td><img style="height: 4vh;" src="../../../assets/img/lp.faq/1.png" /></td>
+                            <td style="padding-left: 0.5vw"><a style="color: black"> Как работает "The Immovables and Prosperity"?</a></td>
+                        </tr>
+                    </table>
+                </li>
+                <li ng-show="$parent.pag==1" class="list-group-item " ng-click="$parent.quest=2" style="padding-top: 2vh">
+                    <table>
+                        <tr>
+                            <td><img style="height: 4vh;" src="../../../assets/img/lp.faq/2.png" /></td>
+                            <td style="padding-left: 0.5vw"><a style="color: black"> Обеспечивает ли компания безопастность моих инвестиций?</a></td>
+                        </tr>
+                    </table>
+                </li>
+                <li ng-show="$parent.pag==2" class="list-group-item " ng-click="$parent.quest=3" style="padding-top: 2vh">
+                    <table>
+                        <tr>
+                            <td><img style="height: 4vh;" src="../../../assets/img/lp.faq/3.png" /></td>
+                            <td style="padding-left: 0.5vw"><a style="color: black">  Как создать аккаунт в вашей компании?</a></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="list-group-item text-center" style="padding-top: 2vh">
+                    <ul class="pagination" style="font-size: 2vh">
+                        <li ng-class="$parent.pag==1?'active':''" ng-click="$parent.pag=1"><a style="color: black"></a></li>
+                        <li ng-class="$parent.pag==2?'active':''" ng-click="$parent.pag=2"><a style="color: black"></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-5 text-left" style="background-image: url('../../../assets/img/lp.faq/Shablon (FAQ).jpg'); background-size: 100%; height: 70vh; margin: 0; padding: 13vh 3.3vw 10vh 3.05vw">
+            <span class="text-left" style="color: black; font-size: 1.5vh; ">
+                <span ng-show="$parent.quest==1">
+                    На начальном этапе «Часто задаваемые вопросы (FAQ)» являются отличным источником
+                    изучений деятельности компании.Именно они помогут разобраться в нюансах работы
+                    сервиса и ответят на большую часть возникающих вопросов.
+                </span>
+                <span ng-show="$parent.quest==2">
+                    Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2 Важный ответ 2
+                </span>
+                <span ng-show="$parent.quest==3">
+                    Важный ответ 3 Важный ответ 3Важный ответ 3Важный ответ 3Важный ответ 3Важный ответ 3Важный ответ 3
+                </span>
+            </span>
+        </div>
+    </div>    
+</div>
+<div class="col-md-12 text-center" style=" padding: 2vh 30vw 7vh 30vw;">
+    <div class="row" style="margin:7vh 10vh; margin-bottom:0vh">
+        <span class="text-center" style="color: gray; font-size: 2vh">
+            По причине отсутсвия необходимой информации, обращайтесь на официальный электронный адресс технической поддержки компании, с указанием соответсвующей темы письма.
+        </span>
+    </div>
+    <div class="row" style="margin:0; padding:0">
+        <span style="color: #c124b4 ; font-size: 4vh;">___</span>
+    </div>
+    <div class="row center-block" style="margin-top: 2vh">
+        <img style="height: 4vh" src="../../../assets/img/lp.faq/Иконка почты.png" />
+    </div>
+    <div class="row ">
+        <span class="text-center" style="color: gray; font-size: 2vh">
+            blablabla@gmail.com
+        </span>
+    </div>
+</div>
+<div class="col-md-12 text-center" style="padding:0;margin:0">    
+    <div ng-include="'app/components/LP/footer.html'"></div>
+</div>

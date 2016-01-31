@@ -1,0 +1,52 @@
+﻿<div class="panel panel-primary" style="border-radius: 10px; margin-bottom: 0;">
+    <div class="panel-heading text-center" style="border-radius: 10px; padding-bottom: 0">
+        <span class="text-center" style="color: black; font-size: 3vh">Регистрация</span>
+        <button type="button" class="close"  ng-click="closeForm()" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="panel-body" style="font-size: 2vh">
+        <form class="form-horizontal" role="form" ng-submit="login(credentials)" novalidate>
+            <div class="form-group" style="margin: 0">
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" id="regInputName" style="background-color: whitesmoke; font-size: 1.75vh "
+                           placeholder="Логин...">
+                </div>
+            </div>
+            <div class="form-group" style="margin: 0">
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" id="regInputMail" style="background-color: whitesmoke; font-size: 1.75vh "
+                           placeholder="E-mail...">
+                </div>
+            </div>
+            <div class="form-group" style="margin: 0">
+                <div class="col-sm-12">
+                    <input type="password" class="form-control" id="regInputPassword" style="background-color: whitesmoke; font-size: 1.75vh "
+                           placeholder="Пароль...">
+                </div>
+            </div>
+            <div class="form-group" style="margin: 0">
+                <div class="col-sm-12">
+                    <input type="password" class="form-control" id="regReEnterPassword" style="background-color: whitesmoke; font-size: 1.75vh "
+                           placeholder="Повторите пароль...">
+                </div>
+            </div>
+            <div class="form-group" style="margin: 0">
+                <div class="col-sm-12">
+                    <input type="text" class="form-control" id="referal" style="background-color: whitesmoke; font-size: 1.75vh "
+                           placeholder="Вас пригласил...">
+                </div>
+            </div>
+            <div class="form-group" style="margin: 0">
+                <div class="col-sm-12">
+                    <div class="checkbox text-left" >
+                        <label><input type="checkbox" style="height: 2vh; width: 2vh;" value=""><span  style="padding-left: 1vh; font-size: 1vh">МНЕ БОЛЬШЕ 18 ЛЕТ И Я ОЗНАКОМИЛСЯ С ПРАВИЛАМИ</span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group last" style="margin: 0">
+                    <button style="font-size: 2vh; width: 10vw;border-radius: 5px" type="submit" class="btn btn-primary btn-block center-block">Зарегистрироваться</button>
+            </div>
+        </form>
+    </div>
+</div>
