@@ -1,17 +1,17 @@
-﻿<div class="col-lg-12" style="padding-top: 0;padding-bottom: 0" ng-init="$parent.tableRow=[{login:'Poops',eml:'poops@gmail.com',date:'21.01.2016','money':1234},{login:'Poops',eml:'poops@gmail.com',date:'21.01.2016','money':1234},{login:'Poops',eml:'poops@gmail.com',date:'21.01.2016','money':1234},{login:'Poops',eml:'poops@gmail.com',date:'21.01.2016','money':1234}];">
+﻿<div class="col-lg-12" style="padding-top: 0;padding-bottom: 0; height:100%; width:100%" ng-init="$parent.tableRow=[{login:'Poops',eml:'poops@gmail.com',date:'21.01.2016','money':1234},{login:'Poops',eml:'poops@gmail.com',date:'21.01.2016','money':1234},{login:'Poops',eml:'poops@gmail.com',date:'21.01.2016','money':1234},{login:'Poops',eml:'poops@gmail.com',date:'21.01.2016','money':1234}];">
     <div class="row">
-        <div class="col-md-1" style="padding: 0">
+        <div class="col-md-1" style="padding: 0; margin:0; height:100%;  width:10%">
             <div ng-include="'app/components/LK/nav-ver.html'"></div>
         </div>
-        <div class="col-md-11" style="padding: 0">
-            <div ng-include="'app/components/LK/nav-hor.html'"></div>
+        <div class="col-md-11" style="padding: 0;margin:0; width:90%">
+            <div ng-include="'app/components/LK/nav-hor.html'" style="padding: 0;margin:0; width:100%; height:10%"></div>
             <div class="col-md-12" style="padding-top: 0;">
                 <div ng-include="'app/components/LK/main-inf.html'"></div>
-                <div class="row text-center" style="height:7vh; background-color: #966ba1; padding: 1vh 10vw 1vh 10vw">
+                <div class="row text-center" style="height:7vh; background-color: #966ba1; padding: 1% 10vw 1% 10vw">
                     <div class="row">
-                        <div class="col-md-3"><span style="font-size: 2.5vh; color: white;">Ваша партнёрская ссылка:</span></div>
-                        <div class="col-md-5"><span style="font-size: 2.5vh; color: white;"> <u>  lorem/ipsum/dolor  </u></span></div>
-                        <div class="col-md-2"><button class="btn btn-default " style="height:3vh;font-size:2vh;margin-left:5vw ;padding:0 3vh 0 3vh; background: none; border-radius: 0; border-color: white; color: white; border-width: 2px">Скопировать</button></div>
+                        <div class="col-md-3 center-block" style="padding:0;margin:0"><span style="font-size: 2.5vh; color: white;">Ваша партнёрская ссылка:</span></div>
+                        <div class="col-md-5 center-block"style="padding:0;margin:0"><span style="font-size: 2.5vh; color: white;"> <u>  lorem/ipsum/dolor  </u></span></div>
+                        <div class="col-md-2 center-block"style="padding:0;margin:0"><button class="btn btn-default " style="height:3vh;font-size:2vh;margin-left:5vw ;padding:0 4vh 0 3vh; background: none; border-radius: 0; border-color: white; color: white; border-width: 2px">Скопировать</button></div>
                     </div>
                 </div>
                 <div class="container-fluid text-center" style="padding: 1vw 10vw 0 10vw">
@@ -27,40 +27,41 @@
                                         </td>
                                         <td style="padding: 2vh;border-right: 2px solid #966ba1;">
                                             <span style="font-size: 2.5vh; color: white;">E-mail</span>
-                                            <img class="pull-right"  style="height: 4vh; padding-top: 0.5vh" src="../../../assets/img/lp.part/Почта.png" />
+                                            <img class="pull-right" style="height: 4vh; padding-top: 0.5vh" src="../../../assets/img/lp.part/Почта.png" />
                                         </td>
                                         <td style="padding: 2vh;border-right: 2px solid #966ba1;">
                                             <span style="font-size: 2.5vh; color: white;">Дата регистрации</span>
-                                            <img class="pull-right"  style="height: 4vh; padding-top: 0.5vh" src="../../../assets/img/lp.part/Дата регистрации.png" />
+                                            <img class="pull-right" style="height: 4vh; padding-top: 0.5vh" src="../../../assets/img/lp.part/Дата регистрации.png" />
                                         </td>
                                         <td style="padding: 2vh">
                                             <span style="font-size: 2.5vh; color: white;">Инвестированно</span>
-                                            <img class="pull-right"  style="height: 4vh; padding-top: 0.5vh" src="../../../assets/img/lp.part/Инвестировано.png" />
+                                            <img class="pull-right" style="height: 4vh; padding-top: 0.5vh" src="../../../assets/img/lp.part/Инвестировано.png" />
                                         </td>
                                     </tr>
                                 </thead>
                                 <tbody style="font-size: 2.5vh;">
-                                      <tr ng-repeat="rec in $parent.tableRow">
-                                          <td>
-                                              {{rec.login}}
-                                          </td>
-                                          <td>
-                                              {{rec.eml}}
-                                          </td>
-                                          <td>
-                                              {{rec.date}}
-                                          </td>
-                                          <td>
-                                              {{rec.money}}
-                                          </td>
-                                      </tr>
+                                    <tr ng-repeat="rec in $parent.tableRow">
+                                        <td>
+                                            {{rec.login}}
+                                        </td>
+                                        <td>
+                                            {{rec.eml}}
+                                        </td>
+                                        <td>
+                                            {{rec.date}}
+                                        </td>
+                                        <td>
+                                            {{rec.money}}
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
                         <div class="col-md-12">
-                        <span style="font-size: 2.5vh; color: black;">Ваc пригласил: <u style="text-decoration: none; border-bottom: 1px solid #b794c0">  lorem/ipsum/dolor  </u></span>
-                        <span style="font-size: 2.5vh; color: black;margin-left:10vw"> E-mail: <u style="text-decoration: none; border-bottom: 1px solid #b794c0">  vaseavasea@gmail.ru  </u></span></div>
-                    </div>   
+                            <span style="font-size: 2.5vh; color: black;">Ваc пригласил: <u style="text-decoration: none; border-bottom: 1px solid #b794c0">  lorem/ipsum/dolor  </u></span>
+                            <span style="font-size: 2.5vh; color: black;margin-left:10vw"> E-mail: <u style="text-decoration: none; border-bottom: 1px solid #b794c0">  vaseavasea@gmail.ru  </u></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
