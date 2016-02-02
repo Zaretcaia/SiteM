@@ -25,7 +25,7 @@
                         <span style="color: black; font-size: 200%;">Настройки аватара:</span> <i style="font-size: 200%; color: green;" ng-show="cropper.croppedImage!=null" class="glyphicon glyphicon-ok"></i><br>
                         <input type="file" id="file" style="display: none" img-cropper-fileread image="cropper.sourceImage"/>
                         <button id="btn1" class="btn btn-default text-center" style="padding: 0 15% 0 15%; background: none; border-radius: 0; border-color: #b794c0; font-size: 200%; border-width: 3px; margin-top: 5%">Загрузить</button> 
-                        <div class="text-center" ng-show="cropper.croppedImage!=null" style="padding-top: 10%"><img ng-src="{{cropper.croppedImage}}" /> </div> 
+                        <div class="text-center" ng-show="cropper.croppedImage!=null" style="padding-top: 10%"><img class="img-circle" ng-src="{{cropper.croppedImage}}" /> </div> 
                     </div>
                     <div class="col-md-9 col-sm-8 text-center" style="padding-top: 5%">
                         <div>
