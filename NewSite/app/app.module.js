@@ -4,6 +4,7 @@
     angular.module('app', [
         'ngResource',
         'ui.router',
-        'ui.bootstrap'
+        'ui.bootstrap',
+        'angular-img-cropper'
     ]);
 })();
