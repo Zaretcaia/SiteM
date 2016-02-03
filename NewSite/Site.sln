@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NewSite", ".", "{58AB5543-C5B0-43A7-8E95-6151F187010C}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NewSite", ".", "{C46E4E78-7B0C-4AAC-BE85-CFACC11C3C64}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_58548"
@@ -30,10 +30,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{58AB5543-C5B0-43A7-8E95-6151F187010C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58AB5543-C5B0-43A7-8E95-6151F187010C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58AB5543-C5B0-43A7-8E95-6151F187010C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{58AB5543-C5B0-43A7-8E95-6151F187010C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C46E4E78-7B0C-4AAC-BE85-CFACC11C3C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46E4E78-7B0C-4AAC-BE85-CFACC11C3C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46E4E78-7B0C-4AAC-BE85-CFACC11C3C64}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46E4E78-7B0C-4AAC-BE85-CFACC11C3C64}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
